@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "091E366D1C7B7B0D00061127"
-               BuildableName = "SwiftServer"
-               BlueprintName = "SwiftServer"
-               ReferencedContainer = "container:SwiftServer.xcodeproj">
+               BlueprintIdentifier = "80E4D8841C717FF30084353F"
+               BuildableName = "swift-server-io"
+               BlueprintName = "swift-server-io"
+               ReferencedContainer = "container:swift-server-io.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "091E366D1C7B7B0D00061127"
-            BuildableName = "SwiftServer"
-            BlueprintName = "SwiftServer"
-            ReferencedContainer = "container:SwiftServer.xcodeproj">
+            BlueprintIdentifier = "80E4D8841C717FF30084353F"
+            BuildableName = "swift-server-io"
+            BlueprintName = "swift-server-io"
+            ReferencedContainer = "container:swift-server-io.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "091E366D1C7B7B0D00061127"
-            BuildableName = "SwiftServer"
-            BlueprintName = "SwiftServer"
-            ReferencedContainer = "container:SwiftServer.xcodeproj">
+            BlueprintIdentifier = "80E4D8841C717FF30084353F"
+            BuildableName = "swift-server-io"
+            BlueprintName = "swift-server-io"
+            ReferencedContainer = "container:swift-server-io.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "091E366D1C7B7B0D00061127"
-            BuildableName = "SwiftServer"
-            BlueprintName = "SwiftServer"
-            ReferencedContainer = "container:SwiftServer.xcodeproj">
+            BlueprintIdentifier = "80E4D8841C717FF30084353F"
+            BuildableName = "swift-server-io"
+            BlueprintName = "swift-server-io"
+            ReferencedContainer = "container:swift-server-io.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

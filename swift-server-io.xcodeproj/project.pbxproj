@@ -6,8 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		80E4D8901C71813E0084353F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E4D88F1C71813E0084353F /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		091E366C1C7B7B0D00061127 /* CopyFiles */ = {
+		80E4D8831C717FF30084353F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		091E366E1C7B7B0D00061127 /* SwiftServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		091E36791C7B7B1E00061127 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		80E4D8851C717FF30084353F /* swift-server-io */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-server-io"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E4D88F1C71813E0084353F /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/main.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		091E366B1C7B7B0D00061127 /* Frameworks */ = {
+		80E4D8821C717FF30084353F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,94 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		091E36651C7B7B0D00061127 = {
+		80E4D87C1C717FF30084353F = {
 			isa = PBXGroup;
 			children = (
-				091E36781C7B7B1E00061127 /* Sources */,
-				091E366F1C7B7B0D00061127 /* Products */,
+				80E4D8871C717FF30084353F /* swift-server-io */,
+				80E4D8861C717FF30084353F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		091E366F1C7B7B0D00061127 /* Products */ = {
+		80E4D8861C717FF30084353F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				091E366E1C7B7B0D00061127 /* SwiftServer */,
+				80E4D8851C717FF30084353F /* swift-server-io */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		091E36781C7B7B1E00061127 /* Sources */ = {
+		80E4D8871C717FF30084353F /* swift-server-io */ = {
 			isa = PBXGroup;
 			children = (
-				091E36791C7B7B1E00061127 /* main.swift */,
+				80E4D88F1C71813E0084353F /* main.swift */,
 			);
-			path = Sources;
+			path = "swift-server-io";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		091E366D1C7B7B0D00061127 /* SwiftServer */ = {
+		80E4D8841C717FF30084353F /* swift-server-io */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 091E36751C7B7B0D00061127 /* Build configuration list for PBXNativeTarget "SwiftServer" */;
+			buildConfigurationList = 80E4D88C1C717FF30084353F /* Build configuration list for PBXNativeTarget "swift-server-io" */;
 			buildPhases = (
-				091E366A1C7B7B0D00061127 /* Sources */,
-				091E366B1C7B7B0D00061127 /* Frameworks */,
-				091E366C1C7B7B0D00061127 /* CopyFiles */,
+				80E4D8811C717FF30084353F /* Sources */,
+				80E4D8821C717FF30084353F /* Frameworks */,
+				80E4D8831C717FF30084353F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftServer;
-			productName = SwiftServer;
-			productReference = 091E366E1C7B7B0D00061127 /* SwiftServer */;
+			name = "swift-server-io";
+			productName = "swift-server-io";
+			productReference = 80E4D8851C717FF30084353F /* swift-server-io */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		091E36661C7B7B0D00061127 /* Project object */ = {
+		80E4D87D1C717FF30084353F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = Chater;
+				ORGANIZATIONNAME = LoganWright;
 				TargetAttributes = {
-					091E366D1C7B7B0D00061127 = {
-						CreatedOnToolsVersion = 7.2.1;
+					80E4D8841C717FF30084353F = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 091E36691C7B7B0D00061127 /* Build configuration list for PBXProject "SwiftServer" */;
+			buildConfigurationList = 80E4D8801C717FF30084353F /* Build configuration list for PBXProject "swift-server-io" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 091E36651C7B7B0D00061127;
-			productRefGroup = 091E366F1C7B7B0D00061127 /* Products */;
+			mainGroup = 80E4D87C1C717FF30084353F;
+			productRefGroup = 80E4D8861C717FF30084353F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				091E366D1C7B7B0D00061127 /* SwiftServer */,
+				80E4D8841C717FF30084353F /* swift-server-io */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		091E366A1C7B7B0D00061127 /* Sources */ = {
+		80E4D8811C717FF30084353F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E4D8901C71813E0084353F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		091E36731C7B7B0D00061127 /* Debug */ = {
+		80E4D88A1C717FF30084353F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		091E36741C7B7B0D00061127 /* Release */ = {
+		80E4D88B1C717FF30084353F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,41 +206,49 @@
 			};
 			name = Release;
 		};
-		091E36761C7B7B0D00061127 /* Debug */ = {
+		80E4D88D1C717FF30084353F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/.build/debug";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		091E36771C7B7B0D00061127 /* Release */ = {
+		80E4D88E1C717FF30084353F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/.build/release";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		091E36691C7B7B0D00061127 /* Build configuration list for PBXProject "SwiftServer" */ = {
+		80E4D8801C717FF30084353F /* Build configuration list for PBXProject "swift-server-io" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				091E36731C7B7B0D00061127 /* Debug */,
-				091E36741C7B7B0D00061127 /* Release */,
+				80E4D88A1C717FF30084353F /* Debug */,
+				80E4D88B1C717FF30084353F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		091E36751C7B7B0D00061127 /* Build configuration list for PBXNativeTarget "SwiftServer" */ = {
+		80E4D88C1C717FF30084353F /* Build configuration list for PBXNativeTarget "swift-server-io" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				091E36761C7B7B0D00061127 /* Debug */,
-				091E36771C7B7B0D00061127 /* Release */,
+				80E4D88D1C717FF30084353F /* Debug */,
+				80E4D88E1C717FF30084353F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 091E36661C7B7B0D00061127 /* Project object */;
+	rootObject = 80E4D87D1C717FF30084353F /* Project object */;
 }

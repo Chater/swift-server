@@ -1,9 +1,9 @@
 //
 //  main.swift
-//  SwiftServer
+//  swift-server-io
 //
-//  Created by Chater on 2/22/16.
-//  Copyright © 2016 Chater. All rights reserved.
+//  Created by Logan Wright on 2/14/16.
+//  Copyright © 2016 LoganWright. All rights reserved.
 //
 
 import Foundation
@@ -22,4 +22,3 @@ Route.get("hello/:name") { request in
 
 let server = Server()
 server.run(port: 8080)
-
