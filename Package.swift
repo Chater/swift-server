@@ -1,8 +1,8 @@
 import PackageDescription
 
 let package = Package(
-  name: "HelloWorld",
-  dependencies: [
-    .Package(url: "https://github.com/kylef/Curassow.git", majorVersion: 0, minor: 2),
-  ]
+    name: "SwiftServer",
+    dependencies: [
+        .Package(url: "https://github.com/qutheory/vapor.git", majorVersion: 0)
+    ]
 )
